@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="styles-animations.css">
+    <link rel="stylesheet" href="styles-main.css">
+    <link rel="stylesheet" href="styles-etu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/79cb5cffb2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon-01.svg"/>
+    <title>etu</title>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-left">
+            <a href="index.html" class="nav-logo">Ella</a>
+        </div>
+        <div class="desktop-nav-bar">
+                <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="about.html" class="nav-item">About Me</a>
+                <a href="my-projects.html" class="nav-item">My Projects</a>
+        </div>
+        <div class="mobile-nav-bar">
+          <button onclick="openMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+        
+      <div id="mobileNav" class="mobile-full-menu">
+        <div class="nav-bar">
+          <div class="mobile-nav-bar">
+            <button onclick="closeMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+        <div class="mobile-menu-items">
+          <a href="my-projects.html" class="nav-item-mobile">My Projects</a>
+            <a href="about.html" class="nav-item-mobile">About Me</a>
+            <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item-mobile"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+      </div>
+
+      <div class="bg-image pure-g">
+        <div class="fadeInUp hero-logo-animation page-content pure-u-1-1">
+            <img class="project-hero" src="/assets/project-etu/etu-hero-logo.svg">
+        </div>
+      </div>
+
+    <div>
+        <div class="bg-colour pure-g">
+            <div class="fadeInUp about-project-animation page-content pure-u-1-1 body-section">
+                <div class="section-title">
+                    <h4>About</h4>
+                </div>
+                <div>
+                    <p class="project-body">Digital wellbeing is huge in this day and age and digital wellbeing apps are going to become more necessary as time goes on. Mobile phones are becoming more and more addictive with several apps being created with the aim to keep the user scrolling and essentially helping them procrastinate.</p><br>
+                    <p class="project-body">The issue with the current digital wellbeing apps out there is that they don’t actually stop you from spending lots of time on your phone, the timers are very easy to extend or just delete and there isn’t any consequence for going over your pre-set time limit.</p><br>    
+                    <p class="project-body">‘etu’ helps the user break social media habits & addictions and helps to create a more conscious user by tracking how much time the user spends on certain social media and entertainment applications.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="hide-row page-content pure-u-1-1 body-section" id="sectiontwo">
+                <div class="section-title">
+                    <h4>Branding</h4>
+                </div>
+
+                <div class="project-typography">
+                    <div class="typography-visual">
+                        <h2 class="header-font">Aa</h2>
+                        <p class="header-font">Quicksand</p>
+                        <p class="header-font">Bold</p>
+                    </div>
+                    <div class="typography-visual">
+                        <h2 class="body-font">Aa</h2>
+                        <p class="body-font">Nunito</p>
+                        <p class="body-font">Regular</p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1-1">
+                    <img class="pure-img colour-palette" src="/assets/project-etu/etu-brand-colour.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-colour pure-g">
+            <div class="hide-row page-content pure-u-1-1 body-section" id="sectionthree">
+                <div class="section-title">
+                    <h4>Application Prototypes</h4>
+                </div>
+                <div class="pure-u-1">
+                    <img class="pure-img" src="/assets/project-etu/etu-mobile-prototype.svg">
+                </div>
+
+                <div class="navigation-arrows">
+                    <div>
+                        <a href="/emmawhyte.html" class="prev-next-button"><i class=" icon-previous fas fa-arrow-left "></i> Previous</a>
+                    </div>
+                    <div>
+                        <a href="/emmaturner.html" class="prev-next-button">Next <i class="icon-next fas fa-arrow-right "></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-bar">
+            <div class="footer-content">
+                <a href="http://ellachambers.me/" target="_blank" class="footer-item"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/animate.js/animate-various.js"></script>
+
+</body>
+
+</html>

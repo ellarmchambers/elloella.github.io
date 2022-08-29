@@ -1,0 +1,76 @@
+/* ------------------------------ JENGU ------------------------------ */
+
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+@font-face {
+    font-family: Nexa;
+    src: url(/assets/project-jengu/NexaBold.otf);
+}
+
+h2 {
+    font-family: 'Nexa', sans-serif;
+    font-weight: 800;
+    color: #A7C6E4;
+}
+
+h4 {
+    font-family: 'Nexa', sans-serif;
+    font-weight: 800;
+    color: #6E8FC5;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-weight: 300;
+    color: #253D5B;
+}
+
+a {
+    color: #35A793;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #A7C6E4;
+    font-weight: bold;
+}
+
+.prev-next-button {
+    font-family: 'Nexa', sans-serif;
+    font-weight: 800;
+}
+
+/* -------------------- PROJECT PAGE -------------------- */
+
+.project-hero {
+    width: 65%;
+    margin: auto
+}
+
+.bg-image {
+    background-image: url(assets/myprojects-page/jengu-project-hero.svg);
+}
+
+.bg-colour {
+    background-color: rgba(167, 198, 228, 0.20);
+}
+
+.header-font {
+    font-family: 'Nexa', sans-serif;
+    font-weight: bold;
+    color: #253D5B;
+}
+
+.body-font {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #253D5B;
+}
+
+@media screen and (max-width: 35.5em) {
+    .project-hero {
+        width: 100%;
+    }
+
+}

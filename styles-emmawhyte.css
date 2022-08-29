@@ -1,0 +1,70 @@
+/* ------------------------------ EMMA WHYTE ------------------------------ */
+
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+h1 {
+    font-family: 'Marcellus', serif;
+    font-weight: 100;
+    color: #199A39;
+    font-size: 4.8em;
+}
+
+h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    color: #199A39;
+}
+
+h4 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    color: #199A39;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+a {
+    color: #199A39;
+}
+
+a:hover {
+    color: #199A39;
+}
+
+.prev-next-button {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* -------------------- PROJECT PAGE -------------------- */
+
+.project-hero {
+    width: 60%;
+    margin: auto;
+    padding-top: 300px;
+    padding-bottom: 250px;
+}
+
+.bg-image {
+    background-image: url(assets/myprojects-page/emmawhyte-project-hero.svg);
+
+}
+
+.bg-colour {
+    background-color: rgba(25, 154, 57, 0.10);
+}
+
+@media screen and (max-width: 35.5em) {
+
+    .project-hero {
+        width: 90%;
+        padding-top: 180px;
+        padding-bottom: 130px;
+    }
+
+}

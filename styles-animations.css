@@ -1,0 +1,97 @@
+/* ------------------------------ CSS ANIMATIONS ------------------------------ */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.hide-row {
+  visibility: hidden;
+}
+
+
+/* -------------------- HOMEPAGE -------------------- */
+
+.name-animation {
+  animation-delay: 0.5s;
+}
+
+.intro-animation {
+  animation-delay: 1s;
+}
+
+/* -------------------- MY PROJECTS -------------------- */
+
+.my-projects-hero-animation {
+  animation-delay: 0.5s;
+}
+
+.card-top-row-animation {
+  animation-delay: 1.5s;
+}
+
+.card-bottom-row-animation {
+  animation-delay: 2s;
+}
+
+.card-container:hover {
+  transition: all 0.3s ease-out;
+  top: -10px;
+}
+
+.card-container {
+  transition: all 0.3s ease-out;
+}
+
+/* -------------------- ABOUT ME -------------------- */
+
+.profile-animation {
+  animation-delay: 0.5s;
+}
+
+.about-animation {
+  animation-delay: 1.5s;
+}
+
+.more-animation {
+  animation-delay: 2s;
+}
+
+/* -------------------- INDIVIDUAL PROJECT PAGE -------------------- */
+
+.hero-logo-animation {
+  animation-delay: 0.5s;
+}
+
+.about-project-animation {
+  animation-delay: 1.5s;
+}

@@ -1,0 +1,77 @@
+/* ------------------------------ THE ETHICAL SOCIAL MEDIA PROJECT ------------------------------ */
+
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #00848D;
+    font-size: 4.8em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #00848D;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #792BA1;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2B0054;
+}
+
+a {
+    color: #00848D;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #35CADA;
+    font-weight: 800;
+}
+
+.prev-next-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+/* -------------------- PROJECT PAGE -------------------- */
+
+.project-hero {
+    width: 30%;
+}
+
+.bg-image {
+    background-image: url(assets/myprojects-page/tesmp-project-hero.svg);
+}
+
+.bg-colour {
+    background-color: rgba(0, 114, 255, 0.10);
+}
+
+.header-font {
+    font-family: 'Poppins', sans-serif;
+    color: #2B0054;
+    font-weight: 800;
+}
+
+.body-font {
+    font-family: 'Montserrat', sans-serif;
+    color: #2B0054;
+}
+
+/* -------------------- MEDIA QUERY -------------------- */
+
+@media screen and (max-width: 35.5em) {
+
+    .project-hero {
+        width: 40%;
+    }
+}

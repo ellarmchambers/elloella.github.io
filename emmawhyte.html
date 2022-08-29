@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="styles-animations.css">
+    <link rel="stylesheet" href="styles-main.css">
+    <link rel="stylesheet" href="styles-emmawhyte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/79cb5cffb2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon-01.svg"/>
+    <title>Emma Whyte</title>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-left">
+            <a href="index.html" class="nav-logo">Ella</a>
+        </div>
+        <div class="desktop-nav-bar">
+                <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="about.html" class="nav-item">About Me</a>
+                <a href="my-projects.html" class="nav-item">My Projects</a>
+        </div>
+        <div class="mobile-nav-bar">
+          <button onclick="openMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+        
+      <div id="mobileNav" class="mobile-full-menu">
+        <div class="nav-bar">
+          <div class="mobile-nav-bar">
+            <button onclick="closeMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+        <div class="mobile-menu-items">
+          <a href="my-projects.html" class="nav-item-mobile">My Projects</a>
+            <a href="about.html" class="nav-item-mobile">About Me</a>
+            <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item-mobile"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+      </div>
+
+      <div class="bg-image pure-g">
+        <div class="fadeInUp hero-logo-animation page-content pure-u-1-1">
+            <img class="project-hero" src="/assets/project-emmawhyte/emmawhyte-hero-logo.svg">
+        </div>
+      </div>
+
+    <div>
+        <div class="bg-colour pure-g">
+            <div class="fadeInUp about-project-animation page-content pure-u-1-1 body-section">
+                <div class="section-title">
+                    <h4>About</h4>
+                </div>
+                <div>
+                    <p class="project-body">I started working with Emma in 2016 and have enjoyed working with her on various projects since then. When Emma came to me she already had a brand but needed assistance with creating a website that visualised her values and services.</p><br>
+                    <p class="project-body">I have managed the design and development of the site since then and seen it go through various iterations and continue to grow and evolve alongside Emma’s visions.</p><br>
+                    <p class="project-body"><a href="#" target="_blank" >Visit The Website.</a></p>   
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="hide-row page-content pure-u-1-1 body-section" id="sectiontwo">
+                <div class="section-title">
+                    <h4>Testimonial</h4>
+                </div>
+                <div>
+                    <p class="project-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                </div>
+
+                <div class="navigation-arrows">
+                    <div>
+                        <a href="/jengu.html" class="prev-next-button"><i class=" icon-previous fas fa-arrow-left "></i> Previous</a>
+                    </div>
+                    <div>
+                        <a href="/etu.html" class="prev-next-button">Next <i class="icon-next fas fa-arrow-right "></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-bar">
+            <div class="footer-content">
+                <a href="http://ellachambers.me/" target="_blank" class="footer-item"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/animate.js/animate-emma.js"></script>
+
+</body>
+
+</html>

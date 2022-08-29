@@ -1,0 +1,78 @@
+/* ------------------------------ GLIMMER ------------------------------ */
+
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #2CB59C;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: #7EADD7;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    color: #005EB8;
+}
+
+a {
+    color: #2CA5B5;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9FE79C;
+    font-weight: bold;
+}
+
+.prev-next-button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* -------------------- PROJECT PAGE -------------------- */
+
+.project-hero {
+    width: 58%;
+    margin: auto
+}
+
+.bg-image {
+    background-image: url(assets/myprojects-page/glimmer-project-hero.svg);
+}
+
+.bg-colour {
+    background-color: rgba(0, 83, 184, 0.20);
+}
+
+.header-font {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #005EB8;
+    font-weight: bold;
+}
+
+.body-font {
+    font-family: 'Rubik', sans-serif;
+    color: #005EB8;
+}
+
+.secondary-colour{
+    padding-top: 40px;
+}
+
+.tv-wireframe {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 35.5em) {
+
+    .project-hero {
+        width: 80%;
+    }
+
+}

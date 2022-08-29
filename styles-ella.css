@@ -1,0 +1,52 @@
+/* -------------------- ELLA -------------------- */
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    color: #00B4D8;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    color: #00B4D8;
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    color: #00B4D8;
+}
+
+h4 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    color: #03045E;
+}
+
+h5 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    color: #03045E;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+    color: #03045E;
+    ;
+}
+
+a {
+    color: #00B4D8;
+}
+
+a:hover {
+    color: #90E0EF;
+}
+
+.bg-colour {
+    background-color: rgba(0, 180, 216, 0.10);
+}

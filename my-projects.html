@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+  <link rel="stylesheet" href="styles-animations.css">
+  <link rel="stylesheet" href="styles-main.css">
+  <link rel="stylesheet" href="styles-ella.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;800;900&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/79cb5cffb2.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/jpg" href="assets/favicon-01.svg"/>
+  <title>My Projects</title>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-left">
+            <a href="index.html" class="nav-logo">Ella</a>
+        </div>
+        <div class="desktop-nav-bar">
+                <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="about.html" class="nav-item">About Me</a>
+                <a href="my-projects.html" class="nav-item">My Projects</a>
+        </div>
+        <div class="mobile-nav-bar">
+          <button onclick="openMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-bars"></i></button>
+        </div>
+    </div>
+    
+      <div id="mobileNav" class="mobile-full-menu">
+        <div class="nav-bar">
+          <div class="mobile-nav-bar">
+            <button onclick="closeMobileNav()" class="nav-item nav-icon" type="button"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+        <div class="mobile-menu-items">
+          <a href="my-projects.html" class="nav-item-mobile">My Projects</a>
+          <a href="about.html" class="nav-item-mobile">About Me</a>
+          <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank" class="nav-item-mobile"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    <div class="page-content">
+
+        <div class="fadeInUp pure-g my-projects-hero my-projects-hero-animation">
+            <div class="pure-u-1-1"> 
+                <h2>My Projects</h2>
+                <p>Below are a few of the independent projects that I have worked on both at University and during my time as a freelance website designer. I thoroughly enjoyed working on each one and look forward to creating many more. Click on each project to learn more.</p>
+            </div>
+          </div>
+
+    
+        <div class="project-cards">
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="testing-cards fadeInUp card-container card-top-row-animation testing">
+                        <a href="/esmp.html">
+                            <div class="testing card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/tesmp-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>The Ethical Social Media Project</h5>
+                                <p class="card-body">Created for my final year dissertation, this project looks at the effect that social media usage may be having on a user’s mental health, and provides solutions to some of the most problematic features.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="fadeInUp card-container card-top-row-animation">
+                        <a href="/jengu.html">
+                            <div class="card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/jengu-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Jengu</h5>
+                                <p class="card-body">A speculative project created in my second year of university that required us to design a mobile & web application that tackled a real-world issue based around health and wellbeing.</p>
+                            </div>
+                        </a>
+                    </div> 
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="fadeInUp card-container card-top-row-animation">
+                        <a href="/emmawhyte.html">
+                            <div class="card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/emmawhyte-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Emma Whyte</h5>
+                                <p class="card-body">A website project that started in my very early years of freelance work. During that time I have been in charge of the design & development of various projects from Emma Whyte, we still work together regularly.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="fadeInUp card-container card-bottom-row-animation">
+                        <a href="/etu.html">
+                            <div class="card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/etu-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Etu</h5>
+                                <p class="card-body">Created for a module in my final year of university that was based around internet based systems and contemporary development methods, this was my first project that looked at a user's mental health.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="fadeInUp card-container card-bottom-row-animation">
+                        <a href="/emmaturner.html">
+                            <div class="card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/emmaturner-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Emma Turner Interior Design</h5>
+                                <p class="card-body">A project that began in late 2021 after Emma Turner had started the initial steps on creating her own website and wanted a helping hand in bringing her plans and visions to life.</p>
+                            </div>
+                        </a>
+                    </div> 
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="fadeInUp card-container card-bottom-row-animation">
+                        <a href="/glimmer.html">
+                            <div class="card-top">
+                                <img class="project-card-image" src="/assets/myprojects-page/glimmer-project-card.svg">
+                            </div>
+                            <div class="card-bottom">
+                                <h5>Glimmer</h5>
+                                <p class="card-body">This project was a result of a module in my final year of university. The module asked us to create a speculative system that addressed the global crisis of Covid-19, another project that allowed me to look at mental health & wellbeing.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-bar">
+            <div class="footer-content">
+                <a href="http://ellachambers.me/" target="_blank" class="footer-item"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+ 
+</body>
+
+</html>
