@@ -38,22 +38,29 @@
   visibility: hidden;
 }
 
+/* -------------------- OTHER PAGES -------------------- */
 
-/* -------------------- HOMEPAGE -------------------- */
-
-.name-animation {
+.section-one-animation{
   animation-delay: 0.5s;
 }
 
-.intro-animation {
+.section-two-animation{
   animation-delay: 1s;
 }
 
-/* -------------------- MY PROJECTS -------------------- */
-
-.my-projects-hero-animation {
-  animation-delay: 0.5s;
+.section-three-animation{
+  animation-delay: 1.5s;
 }
+
+.section-four-animation{
+  animation-delay: 2s;
+}
+
+.section-five-animation{
+  animation-delay: 2.5s;
+}
+
+/* -------------------- MY PROJECTS -------------------- */
 
 .card-top-row-animation {
   animation-delay: 1.5s;
@@ -70,28 +77,4 @@
 
 .card-container {
   transition: all 0.3s ease-out;
-}
-
-/* -------------------- ABOUT ME -------------------- */
-
-.profile-animation {
-  animation-delay: 0.5s;
-}
-
-.about-animation {
-  animation-delay: 1.5s;
-}
-
-.more-animation {
-  animation-delay: 2s;
-}
-
-/* -------------------- INDIVIDUAL PROJECT PAGE -------------------- */
-
-.hero-logo-animation {
-  animation-delay: 0.5s;
-}
-
-.about-project-animation {
-  animation-delay: 1.5s;
 }
