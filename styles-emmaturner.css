@@ -23,17 +23,17 @@ p {
 
 a {
     color: #7D878D;
-    font-weight: bold
+    font-weight: bold;
 }
 
 a:hover {
     color: #EFCBAF;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .prev-next-button {
     font-family: 'Source Serif 4', serif;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 /* -------------------- PROJECT PAGE -------------------- */
