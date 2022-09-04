@@ -10,19 +10,18 @@
 
 h2 {
     font-family: 'Nexa', sans-serif;
-    font-weight: 800;
+    font-weight: bold;
     color: #A7C6E4;
 }
 
 h4 {
     font-family: 'Nexa', sans-serif;
-    font-weight: 800;
+    font-weight: bold;
     color: #6E8FC5;
 }
 
 p {
     font-family: 'Libre Franklin', sans-serif;
-
     font-weight: 300;
     color: #253D5B;
 }
