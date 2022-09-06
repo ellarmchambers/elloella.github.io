@@ -36,6 +36,17 @@ a:hover {
     font-weight: bold;
 }
 
+.header-font {
+    font-family: 'Nexa', sans-serif;
+    font-weight: bold;
+    color: #253D5B;
+}
+
+.body-font {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #253D5B;
+}
+
 .prev-next-button {
     font-family: 'Nexa', sans-serif;
     font-weight: bold;
@@ -56,16 +67,7 @@ a:hover {
     background-color: rgba(167, 198, 228, 0.20);
 }
 
-.header-font {
-    font-family: 'Nexa', sans-serif;
-    font-weight: bold;
-    color: #253D5B;
-}
-
-.body-font {
-    font-family: 'Libre Franklin', sans-serif;
-    color: #253D5B;
-}
+/* -------------------- MEDIA QUERY -------------------- */
 
 @media screen and (max-width: 35.5em) {
     .project-hero {

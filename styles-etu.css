@@ -31,6 +31,17 @@ a:hover {
     font-weight: bold;
 }
 
+.header-font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #083D77;
+}
+
+.body-font {
+    font-family: 'Nunito', sans-serif;
+    color: #083D77;
+}
+
 .prev-next-button {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
@@ -51,16 +62,7 @@ a:hover {
     background-color: rgba(44, 165, 181, 0.10);
 }
 
-.header-font {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    color: #083D77;
-}
-
-.body-font {
-    font-family: 'Nunito', sans-serif;
-    color: #083D77;
-}
+/* -------------------- MEDIA QUERY -------------------- */
 
 @media screen and (max-width: 35.5em) {
 

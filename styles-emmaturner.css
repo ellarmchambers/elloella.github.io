@@ -31,6 +31,17 @@ a:hover {
     font-weight: bold;
 }
 
+.header-font {
+    font-family: 'Source Serif 4', serif;
+    font-weight: bold;
+    color: #7D878D;
+}
+
+.body-font {
+    font-family: 'Raleway', sans-serif;
+    color: #7D878D;
+}
+
 .prev-next-button {
     font-family: 'Source Serif 4', serif;
     font-weight: bold;
@@ -53,16 +64,7 @@ a:hover {
     background-color: rgba(239, 203, 175, 0.15);
 }
 
-.header-font {
-    font-family: 'Source Serif 4', serif;
-    font-weight: bold;
-    color: #7D878D;
-}
-
-.body-font {
-    font-family: 'Raleway', sans-serif;
-    color: #7D878D;
-}
+/* -------------------- MEDIA QUERY -------------------- */
 
 @media screen and (max-width: 35.5em) {
 

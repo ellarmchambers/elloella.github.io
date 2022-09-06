@@ -34,12 +34,6 @@
   animation-fill-mode: both;
 }
 
-.hide-row {
-  visibility: hidden;
-}
-
-/* -------------------- OTHER PAGES -------------------- */
-
 .section-one-animation{
   animation-delay: 0.5s;
 }

@@ -54,6 +54,15 @@ a:hover {
     z-index: 1;
 }
 
+.nav-bar-home {
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 900;
+    z-index: 1;
+}
+
 .nav-logo {
     /* Conditions for nav bar logo*/
     float: left;
@@ -85,7 +94,7 @@ a:hover {
 .nav-icon {
     background-color: transparent;
     border: none;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .mobile-nav-bar {
@@ -145,7 +154,6 @@ footer {
     font-size: 1.5em;
 }
 
-
 /* -------------------- GENERAL PAGE STYLING -------------------- */
 
 .page-content {
@@ -182,6 +190,10 @@ footer {
 }
 
 .mobile-shape {
+    display: none;
+}
+
+.intro-mobile-only{
     display: none;
 }
 
@@ -276,6 +288,10 @@ footer {
     height: 800px;
 }
 
+.mobile-xd-link{
+    display: none;
+}
+
 .navigation-arrows {
     margin: auto;
     padding-top: 60px;
@@ -333,7 +349,7 @@ footer {
 
 /* -------------------- MEDIA QUERY -------------------- */
 
-@media (max-width: 770px) {
+@media (max-width: 500px) {
 
     .mobile-nav-bar {
         display: block;
@@ -376,25 +392,13 @@ footer {
         padding-right: 50px;
     }
 
-    .my-projects-hero {
-        padding-top: 150px;
-    }
-
     .body-section {
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-    .colour-palette {
-        padding-right: 200px;
-    }
-
-    .about-hero {
+    .my-projects-hero {
         padding-top: 150px;
-    }
-
-    .about-text {
-        text-align: center;
     }
 
     .card-bottom {
@@ -405,8 +409,20 @@ footer {
         font-size: 1em;
     }
 
+    .colour-palette {
+        padding-right: 200px;
+    }
+
     .xd-prototype{
         height: 600px;
+    }
+
+    .about-hero {
+        padding-top: 150px;
+    }
+
+    .about-text {
+        text-align: center;
     }
 }
 
@@ -426,13 +442,13 @@ footer {
         padding-right: 0px;
     }
 
+    .xd-prototype{
+        height: 400px;
+    }
+
     .profile {
         width: 100%;
         padding: 0px 0px 50px 0px;
-    }
-
-    .xd-prototype{
-        height: 400px;
     }
 
 }
@@ -476,6 +492,10 @@ footer {
         display: block;
     }
 
+    .intro-mobile-only{
+        display: block;
+    }
+
     .page-content {
         padding-left: 40px;
         padding-right: 40px;
@@ -484,6 +504,14 @@ footer {
     .body-section {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .body-section .pure-u-md-1-3 {
+        width: 100%;
+    }
+
+    .body-section .pure-u-md-1-2 {
+        width: 100%;
     }
 
     .section-title {
@@ -502,19 +530,11 @@ footer {
         margin: 15px 0px 15px 0px;
     }
 
-    .body-section .pure-u-md-1-3 {
-        width: 100%;
-    }
-
-    .body-section .pure-u-md-1-3 {
-        width: 100%;
-    }
-
-    .body-section .pure-u-md-1-2 {
-        width: 100%;
-    }
-
     .xd-prototype{
-        height: 200px;
+       display: none;
+    }
+
+    .mobile-xd-link{
+        display: block;
     }
 }

@@ -37,6 +37,17 @@ a:hover {
     font-weight: 800;
 }
 
+.header-font {
+    font-family: 'Poppins', sans-serif;
+    color: #2B0054;
+    font-weight: 800;
+}
+
+.body-font {
+    font-family: 'Montserrat', sans-serif;
+    color: #2B0054;
+}
+
 .prev-next-button {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -54,17 +65,6 @@ a:hover {
 
 .bg-colour {
     background-color: rgba(0, 114, 255, 0.10);
-}
-
-.header-font {
-    font-family: 'Poppins', sans-serif;
-    color: #2B0054;
-    font-weight: 800;
-}
-
-.body-font {
-    font-family: 'Montserrat', sans-serif;
-    color: #2B0054;
 }
 
 /* -------------------- MEDIA QUERY -------------------- */

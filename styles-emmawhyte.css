@@ -51,12 +51,13 @@ a:hover {
 
 .bg-image {
     background-image: url(assets/myprojects-page/emmawhyte-project-hero.svg);
-
 }
 
 .bg-colour {
     background-color: rgba(25, 154, 57, 0.10);
 }
+
+/* -------------------- MEDIA QUERY -------------------- */
 
 @media screen and (max-width: 35.5em) {
 
