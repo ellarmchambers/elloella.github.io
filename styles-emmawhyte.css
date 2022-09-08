@@ -50,7 +50,7 @@ a:hover {
 }
 
 .bg-image {
-    background-image: url(assets/myprojects-page/emmawhyte-project-hero.svg);
+    background-color: rgba(43, 151, 43, 0.25);
 }
 
 .bg-colour {

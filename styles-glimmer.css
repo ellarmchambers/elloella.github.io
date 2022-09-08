@@ -54,7 +54,7 @@ a:hover {
 }
 
 .bg-image {
-    background-image: url(assets/myprojects-page/glimmer-project-hero.svg);
+    background-color: rgba(126, 173, 215, 0.20);
 }
 
 .bg-colour {
