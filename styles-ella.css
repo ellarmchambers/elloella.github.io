@@ -43,7 +43,11 @@ a {
 }
 
 a:hover {
-    color: #CAF0F8;
+    color: #0077B6;
+}
+
+.about-me-link {
+    font-weight: 500;
 }
 
 /* -------------------- ABOUT PAGE -------------------- */
