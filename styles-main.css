@@ -154,6 +154,10 @@ footer {
     font-size: 1.5em;
 }
 
+.footer-item:hover{
+    color: #00B4D8;
+}
+
 /* -------------------- GENERAL PAGE STYLING -------------------- */
 
 .page-content {
