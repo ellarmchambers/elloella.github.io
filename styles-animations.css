@@ -1,6 +1,6 @@
 /* ------------------------------ CSS ANIMATIONS ------------------------------ */
 
-@keyframes fadeInUp {
+@keyframes fade-in-up {
   0% {
     opacity: 0;
     transform: translate3d(0, 10%, 0);
@@ -12,8 +12,8 @@
   }
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
+.fade-in-up {
+  animation-name: fade-in-up;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
