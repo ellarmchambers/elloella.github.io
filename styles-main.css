@@ -232,6 +232,8 @@ footer {
     background-color: #90E0EF;
     border-radius: 0px 0px 10px 10px;
     padding: 30px 30px 30px 30px;
+    min-height: 300px;
+    box-sizing: border-box;
 }
 
 .card-body {
