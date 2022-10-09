@@ -176,14 +176,13 @@ footer {
 /* -------------------- HOMEPAGE STYLING -------------------- */
 
 .homepage-intro {
-    position: fixed;
-    top: 50%;
-    transform: translate(-0%, -50%);
+    padding-top: 250px;
+    padding-bottom: 50px;
 }
 
 .top-shape {
     height: 100%;
-    background-image: url(assets/home-page/top-shape-lg.svg);
+    background-image: url(assets/home-page/desktop_topshape.svg);
     background-repeat: no-repeat;
 }
 
@@ -201,15 +200,23 @@ footer {
     display: none;
 }
 
+.projects-bg{
+    height: 100%;
+    background-image: url(assets/home-page/desktop-myprojects.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* -------------------- PROJECT PAGE STYLING -------------------- */
 
 .my-projects-hero {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .project-cards {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .card-container {
@@ -355,17 +362,6 @@ footer {
 
 /* -------------------- MEDIA QUERY -------------------- */
 
-@media (max-width: 500px) {
-
-    .mobile-nav-bar {
-        display: block;
-    }
-
-    .desktop-nav-bar {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 64em) {
     /* less than 1024px */
 
@@ -409,6 +405,7 @@ footer {
 
     .card-bottom {
         padding: 20px 20px 20px 20px;
+        min-height: 250px;
     }
 
     .card-body {
@@ -457,6 +454,14 @@ footer {
         padding: 0px 0px 50px 0px;
     }
 
+    .top-shape {
+        background-image: url(assets/home-page/tablet-topshape.svg);
+    }
+
+    .projects-bg{
+        background-image: url(assets/home-page/tablet-myprojects.svg);
+    }
+
 }
 
 @media screen and (max-width: 35.5em) {
@@ -487,19 +492,11 @@ footer {
     }
 
     .top-shape {
-        background-image: url(assets/home-page/top-shape-mobile.svg);
+        background-image: url(assets/home-page/mobile-topshape.svg);
     }
 
-    .desktop-shape {
-        display: none;
-    }
-
-    .mobile-shape {
-        display: block;
-    }
-
-    .intro-mobile-only{
-        display: block;
+    .projects-bg{
+        background-image: url(assets/home-page/mobile-myprojects.svg);
     }
 
     .page-content {
@@ -520,6 +517,11 @@ footer {
         width: 100%;
     }
 
+    .homepage-intro{
+        padding-top: 200px;
+        padding-bottom: 0px;
+    }
+
     .section-title {
         padding-bottom: 30px;
     }
@@ -528,12 +530,12 @@ footer {
         padding-right: 40px;
     }
 
-    .prev-next-button {
-        font-size: 1.2em;
-    }
-
     .card-container {
         margin: 15px 0px 15px 0px;
+    }
+
+    .card-bottom{
+        min-height: auto;
     }
 
     .xd-prototype{

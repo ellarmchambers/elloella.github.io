@@ -57,11 +57,11 @@
 /* -------------------- MY PROJECTS -------------------- */
 
 .card-top-row-animation {
-  animation-delay: 1.5s;
+  animation-delay: 2.5s;
 }
 
 .card-bottom-row-animation {
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 .card-container:hover {
