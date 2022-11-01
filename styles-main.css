@@ -200,18 +200,19 @@ footer {
     display: none;
 }
 
-.projects-bg{
+/* .projects-bg{
     height: 100%;
     background-image: url(assets/home-page/desktop-myprojects.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 /* -------------------- PROJECT PAGE STYLING -------------------- */
 
 .my-projects-hero {
     padding-top: 150px;
+    text-align: center;
 }
 
 .project-cards {
@@ -239,7 +240,7 @@ footer {
     background-color: #90E0EF;
     border-radius: 0px 0px 10px 10px;
     padding: 30px 30px 30px 30px;
-    min-height: 300px;
+    min-height: 215px;
     box-sizing: border-box;
 }
 
@@ -341,25 +342,6 @@ footer {
     text-align: center;
 }
 
-.contact-btn {
-    padding-top: 20px;
-}
-
-.btn {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 200;
-    font-size: 1.4em;
-    color: #03045E;
-    background-color: #90E0EF;
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.btn:hover {
-    color: #03045E;
-    background-color: #CAF0F8;
-}
-
 /* -------------------- MEDIA QUERY -------------------- */
 
 @media screen and (max-width: 64em) {
@@ -405,7 +387,7 @@ footer {
 
     .card-bottom {
         padding: 20px 20px 20px 20px;
-        min-height: 250px;
+        min-height: 180px;
     }
 
     .card-body {
@@ -458,9 +440,9 @@ footer {
         background-image: url(assets/home-page/tablet-topshape.svg);
     }
 
-    .projects-bg{
+    /* .projects-bg{
         background-image: url(assets/home-page/tablet-myprojects.svg);
-    }
+    } */
 
 }
 
@@ -495,9 +477,9 @@ footer {
         background-image: url(assets/home-page/mobile-topshape.svg);
     }
 
-    .projects-bg{
+    /* .projects-bg{
         background-image: url(assets/home-page/mobile-myprojects.svg);
-    }
+    } */
 
     .page-content {
         padding-left: 40px;

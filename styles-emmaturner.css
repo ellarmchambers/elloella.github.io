@@ -21,16 +21,6 @@ p {
     color: #7D878D;
 }
 
-a {
-    color: #7D878D;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #EFCBAF;
-    font-weight: bold;
-}
-
 .header-font {
     font-family: 'Source Serif 4', serif;
     font-weight: bold;
@@ -40,11 +30,6 @@ a:hover {
 .body-font {
     font-family: 'Raleway', sans-serif;
     color: #7D878D;
-}
-
-.prev-next-button {
-    font-family: 'Source Serif 4', serif;
-    font-weight: bold;
 }
 
 /* -------------------- PROJECT PAGE -------------------- */
@@ -62,6 +47,25 @@ a:hover {
 
 .bg-colour {
     background-color: rgba(239, 203, 175, 0.15);
+}
+
+.project-btn {
+    padding-top: 30px;
+}
+
+.btn {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: white;
+    background-color: #7D878D;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #EFCBAF;
 }
 
 /* -------------------- MEDIA QUERY -------------------- */

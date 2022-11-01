@@ -26,16 +26,6 @@ p {
     color: #253D5B;
 }
 
-a {
-    color: #35A793;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #A7C6E4;
-    font-weight: bold;
-}
-
 .header-font {
     font-family: 'Nexa', sans-serif;
     font-weight: bold;
@@ -45,11 +35,6 @@ a:hover {
 .body-font {
     font-family: 'Libre Franklin', sans-serif;
     color: #253D5B;
-}
-
-.prev-next-button {
-    font-family: 'Nexa', sans-serif;
-    font-weight: bold;
 }
 
 /* -------------------- PROJECT PAGE -------------------- */

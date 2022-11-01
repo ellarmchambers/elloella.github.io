@@ -20,29 +20,9 @@ p {
     color: #005EB8;
 }
 
-a {
-    color: #2CA5B5;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #9FE79C;
-    font-weight: bold;
-}
-
 .header-font {
     font-family: 'Nunito Sans', sans-serif;
     color: #005EB8;
-    font-weight: bold;
-}
-
-.body-font {
-    font-family: 'Rubik', sans-serif;
-    color: #005EB8;
-}
-
-.prev-next-button {
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
 }
 
@@ -67,6 +47,25 @@ a:hover {
 
 .tv-wireframe {
     padding-bottom: 10px;
+}
+
+.project-btn {
+    padding-top: 30px;
+}
+
+.btn {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    background-color: #005EB8;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #7EADD7;
 }
 
 /* -------------------- MEDIA QUERY -------------------- */

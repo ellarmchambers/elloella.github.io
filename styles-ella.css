@@ -55,3 +55,22 @@ a:hover {
 .bg-colour {
     background-color: rgba(0, 180, 216, 0.10);
 }
+
+.contact-btn {
+    padding-top: 20px;
+}
+
+.btn {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+    font-size: 1.4em;
+    color: #03045E;
+    background-color: #90E0EF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+    color: #03045E;
+    background-color: #CAF0F8;
+}

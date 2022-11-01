@@ -21,16 +21,6 @@ p {
     color: #083D77;
 }
 
-a {
-    color: #2CA5B5;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #9FE79C;
-    font-weight: bold;
-}
-
 .header-font {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
@@ -40,11 +30,6 @@ a:hover {
 .body-font {
     font-family: 'Nunito', sans-serif;
     color: #083D77;
-}
-
-.prev-next-button {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
 }
 
 /* -------------------- PROJECT PAGE -------------------- */

@@ -28,18 +28,6 @@ p {
     color: #000000;
 }
 
-a {
-    color: #199A39;
-}
-
-a:hover {
-    color: #199A39;
-}
-
-.prev-next-button {
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
 /* -------------------- PROJECT PAGE -------------------- */
 
 .project-hero {
@@ -55,6 +43,25 @@ a:hover {
 
 .bg-colour {
     background-color: rgba(25, 154, 57, 0.10);
+}
+
+.project-btn {
+    padding-top: 30px;
+}
+
+.btn {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    background-color: #199A39;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgba(25, 154, 57, 0.6);
 }
 
 /* -------------------- MEDIA QUERY -------------------- */
