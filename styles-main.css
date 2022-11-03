@@ -200,13 +200,13 @@ footer {
     display: none;
 }
 
-/* .projects-bg{
+.projects-bg{
     height: 100%;
     background-image: url(assets/home-page/desktop-myprojects.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-} */
+    /* background-position: center; */
+}
 
 /* -------------------- PROJECT PAGE STYLING -------------------- */
 
@@ -440,9 +440,9 @@ footer {
         background-image: url(assets/home-page/tablet-topshape.svg);
     }
 
-    /* .projects-bg{
+    .projects-bg{
         background-image: url(assets/home-page/tablet-myprojects.svg);
-    } */
+    }
 
 }
 
@@ -477,9 +477,9 @@ footer {
         background-image: url(assets/home-page/mobile-topshape.svg);
     }
 
-    /* .projects-bg{
+    .projects-bg{
         background-image: url(assets/home-page/mobile-myprojects.svg);
-    } */
+    }
 
     .page-content {
         padding-left: 40px;
