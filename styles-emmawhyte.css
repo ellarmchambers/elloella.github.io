@@ -75,3 +75,13 @@ p {
     }
 
 }
+
+@media screen and (min-height: 1200px) {
+
+    footer {
+        position:fixed;
+        bottom:0;
+        width:100%;
+    }
+
+}
