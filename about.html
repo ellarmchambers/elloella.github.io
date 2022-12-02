@@ -29,9 +29,10 @@
 
   <script>
     const url = window.location.href;
-    const newUrl = url.replace('.html', '');
+    const regex = /\.html$/;
+    const newUrl = url.replace(regex, '');
     window.location.replace(newUrl);
-</script>
+  </script>
 
 </head>
 
