@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://ellachambers.xyz/</loc>
+  <loc>https://ellachambers.xyz/index.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/about</loc>
+  <loc>https://ellachambers.xyz/about.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/emmaturner</loc>
+  <loc>https://ellachambers.xyz/emmaturner.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/emmawhyte</loc>
+  <loc>https://ellachambers.xyz/emmawhyte.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/esmp</loc>
+  <loc>https://ellachambers.xyz/esmp.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/etu</loc>
+  <loc>https://ellachambers.xyz/etu.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/glimmer</loc>
+  <loc>https://ellachambers.xyz/glimmer.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://ellachambers.xyz/jengu</loc>
+  <loc>https://ellachambers.xyz/jengu.html</loc>
   <lastmod>2022-12-02</lastmod>
   <priority>0.5</priority>
 </url>
