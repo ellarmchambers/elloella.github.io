@@ -27,17 +27,18 @@
     <script src="https://kit.fontawesome.com/79cb5cffb2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/jpg" href="assets/favicon-01.svg"/>
     <title>Jengu</title>
-
-    <script>
-        const url = window.location.href;
-        const regex = /\.html$/;
-        const newUrl = url.replace(regex, '');
-        window.location.replace(newUrl);
-      </script>
     
 </head>
 
 <body>
+
+    <script>
+        window.onload = function() {
+          const url = window.location.href;
+          const newUrl = url.replace('.html', '');
+          window.location.replace(newUrl);
+        }
+      </script>
 
     <div class="nav-bar">
         <div class="nav-left">
