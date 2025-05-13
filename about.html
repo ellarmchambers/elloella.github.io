@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella Chambers - UX Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@100;300;400;700;800&display:swap" rel="stylesheet">
+    <link rel="icon" href="assets/Ella_Favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+                <img src="assets/Ella_Logo_Main.png" alt="Ella Chambers Logo" class="logo">
+            </a>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="subpage-hero">
+            <div class="subpage-bg about-hero-bg"></div>
+            <div class="hero-content">
+                <h1>About Me</h1>
+            </div>
+        </section>
+        <section class="experience"> <div class="content-wrapper">
+                 <div class="section-inner">
+                    <div class="section-content">
+                        <div class="section-image-container">
+                            <img src="assets/About_Me_img.png" alt="Image of me" class="section-icon profile-image">
+                        </div>
+                        <div class="text-content">
+                            <h2 class="section-title">My background</h2>
+                            <p class="section-paragraph">I grew up surrounded and intrigued by technology, I have strong memories of watching my brothers on the family computer just itching to have a turn.</p>
+                            <p class="section-paragraph">In my late teens I wasn’t sure what my ‘calling’ was going to be. During my gap year and whilst working as a teaching assistant I started to learn how to code and began my exploration of the digital design space.</p>
+                            <p class="section-paragraph">It was then that I found my love for creating online experiences and explored web based degrees. While in my final year of my Internet Design BA I realised I could combine my passion of wellbeing and love for UX to contribute to the ‘tech for good’ space.</p>
+                            <button class="learn-more">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"> <div class="skills-bg"></div>
+            <div class="content-wrapper">
+                <div class="section-inner">
+                     <div class="section-content">
+                        <div class="section-image-container">
+                            <img src="assets/bulb.png" alt="Lightbulb Icon" class="section-icon skills-icon">
+                         </div>
+                        <div class="text-content">
+                             <h2 class="section-title">My skills</h2>
+                             <p class="section-paragraph">In my current role I get the opportunity to utilise my skill set in a variety of ways.</p>
+                             <p class="section-paragraph">As a user experience designer I use empathy to create strong user journeys and personas, allowing me to develop well thought through wireframes that enable users to reach their goals as efficiently as possible.</p>
+                             <p class="section-paragraph">As an Elementor developer, I have built a variety of WordPress websites to provide clients with platforms that not only reflect their vision, but allow them to flourish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experience"> <div class="content-wrapper">
+                 <div class="section-inner">
+                    <div class="section-content">
+                        <div class="section-image-container">
+                            <img src="assets/guitar.png" alt="Guitar Icon" class="section-icon learning-icon">
+                        </div>
+                        <div class="text-content">
+                            <h2 class="section-title">Always learning</h2>
+                            <p class="section-paragraph">I firmly believe in the importance of continuous development and always seek ways to challenge myself. With every website I create, I aim to push myself and make each build better than the last. I have recently applied this mindset to my personal life by learning to play the acoustic guitar. Before this, the last instrument I played was the recorder when I was five years old!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-main">
+            <img src="assets/Ella_Logo_Main.png" alt="Ella Chambers Logo" class="footer-logo">
+            <nav class="footer-links">
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+                <a href="mailto:ellarmchambers@gmail.com">Contact</a>
+                <a href="https://www.linkedin.com/in/ellarmchambers/" target="_blank">LinkedIn</a>
+            </nav>
+            <div class="footer-copyright">
+                <p>&copy; <span id="currentYear">2025</span> Ella Chambers. All rights reserved.</p>
+                <a href="attributions.html">Attributions</a>
+            </div>
+        </div>
+        <div class="footer-carbon">
+            <div id="wcb" class="carbonbadge wcb-d"></div> <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
