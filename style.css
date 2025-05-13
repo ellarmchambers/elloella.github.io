@@ -70,7 +70,7 @@ main section {
 
 .section-title {
     font-size: 50px; 
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.2;
     margin-bottom: 20px; 
     text-align: left; 
@@ -217,7 +217,7 @@ h1 {
     gap: 30px;
 }
 .testimonial {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     padding: 30px;
     border-radius: 10px;
     text-align: left;
@@ -233,12 +233,12 @@ h1 {
     background-color: #03045E;
     color: white;
     border: none;
-    padding: 10px 30px;
+    padding: 8px 30px;
     border-radius: 25px;
     cursor: pointer;
     font-family: 'Bricolage Grotesque', sans-serif;
     text-decoration: none; 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     transition: transform 0.3s ease, background-color 0.3s ease;
     display: inline-block; 
@@ -276,8 +276,8 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-.project-box h3 { font-size: 24px; font-weight: 700; color: #03045E; margin-top: 0; margin-bottom: 15px; }
-.project-box p { font-size: 18px; line-height: 1.6; margin-bottom: 15px; max-width: none; } 
+.project-box h3 { font-size: 34px; font-weight: 700; color: #03045E; margin-top: 0; margin-bottom: 15px; }
+.project-box p { font-size: 16px; line-height: 1.6; margin-bottom: 15px; max-width: none; } 
 .project-box p:last-child { margin-bottom: 0; }
 
 footer {
